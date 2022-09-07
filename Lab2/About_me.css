@@ -1,0 +1,36 @@
+*{
+    background-color:lightblue;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+    text-align: start;
+    margin: 20px;
+}
+
+.table{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    margin-bottom: 40px;
+}
+
+
+.input{
+    margin-bottom: 5px;
+    width: 200px;
+	background:rgb(241, 241, 241);
+	border: 1px solid #efefef;
+	font-size: 12px;
+	border-radius: 3px;
+	color: black;
+	padding: 10px;
+}
+
+.btn{
+    margin-left: 20px;
+}
